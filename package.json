@@ -1,5 +1,5 @@
 {
-  "name": "nonitor-agent",
+  "name": "nonitor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,17 @@
   },
   "dependencies": {
   },
-  "author": "",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/synder/nonitor-agent.git"
+  },
+  "keywords": [
+    "monitor",
+    "nonitor",
+    "web",
+    "api",
+    "express"
+  ],
+  "author": "synder",
   "license": "ISC"
 }

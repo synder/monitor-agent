@@ -28,11 +28,12 @@ exports.start = function(config){
         var daemon = new Daemon();
         
         daemon.start(childModulePath, [
+            masterProcessId,
             config.host,
             config.port,
             config.appName,
             config.appKey,
-            masterProcessId
+            config.appSecret
         ]);
         
         wraper.wrap(function(info){
